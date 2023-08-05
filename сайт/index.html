@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="menu">
+        <a href="#" class="menu__link"> О сайте </a>
+        <a href="#" class="menu__link"> Достопримечательности </a>
+        <a href="#" class="menu__link"> Путевки </a>
+        <a href="#" class="menu__link"> Оставьте заявку </a>
+    </nav>
+    <header class="header">
+        <h1 class="header__title"> Путевки по красотам России </h1>
+        <p class="header__phrase"> Красиво, быстро, недорого! </p>
+        <a href="#" class="header__link"> Подробнее </a>
+    </header>
+    <main>
+        <div class="about-site"> 
+            <h2 class="about-site__title"> О сайте </h2>
+            <div class="about-site__box">
+                <img class="box__img" alt="" src="img/дерево.jpg">
+                <p class="box__paragraph"> Привествуем Вас на нашем сайте! Здесь вы найдете недорогие путевки по красивым,
+                    но непопулярным местам России. 
+                    В стоимость путевки входят: <br> - билеты до места назначения <br>
+                                                     - экскурсовод<br>
+                                                     - место для проживания <br>
+                                                     - трехразовое питание<br>
+                    Вы можете выбрать как групповую так и индивидуальную поездку. Хорошего отдыха! </p> <br>
+            </div>
+        </div>
+        <div class="attractions">
+            <h2 class="attractions__title"> Достопримечательности </h2>
+            <p class="attractions__paragraph"> Вот на какие достопримечательности мы сейчас продаем путевки: </p>
+            <div class="attractions__flex">
+
+            <div class="card">
+                <img class="card__img" src="img/пещера Стерегущее копье.jpg" alt="пещерный комплекс Стерегущее копью">
+                <h3 class="card__name">  Пещера "Стерегущее копье" </h3>
+                <p class="card__place"> Хабаровский край </p>
+                <p class="card__description"> <br> Представляет собой ряд больших (до 400 м2) залов,
+                    объедененных в одну систему многочисленными галереями, лазами и ходами. </p>
+                <a class="card__link" href=""> Подробнее </a>
+            </div>
+
+            <div class="card">
+                <img class="card__img" src="img/мыс Брюса.jpg" alt="мыс Брюса">
+                <h3 class="card__name"> Мыс Брюса </h3>
+                <p class="card__place"> Приморский край </p>
+                <p class="card__description"> <br> Мыс Брюса является северо-восточной оконечностью одноименного полуострова 
+                    разделяя Славянский залив и бухту Баклан.</p>
+                <a class="card__link" href=""> Подробнее </a>
+            </div>
+        
+            <div class="card">
+                <img class="card__img" src="img/замок Гарибальди.jpg" alt="замок Гарибальди">
+                <h3 class="card__name"> Замок Гарибальди </h3>
+                <p class="card__place"> Самарская область </p>
+                <p class="card__description"> <br> Замок Гарибальди - этo неоготический замок, 
+                    который построен и оформлен в духе лучших традиций архитектуры Средних веков. </p>
+                <a class="card__link" href=""> Подробнее </a>
+            </div>
+
+            </div>
+        </div>
+        <div class="price">
+            <h2 class="price__title"> Путевки </h2>
+            <p class="price__paragraph"> У нас недорого, покупайте:) </p>
+
+            <div class="tarif-flex">
+            <ul class="tarif">
+                <li class="tarif-name"> Базовый </li>
+                <li> <span class="important"> Комфортный </span> автобус </li>
+                <li> <span class="important"> Так себе </span> гостиница </li>
+                <li> <span class="important"> Обычный </span> гид </li>
+                <li> <span class="important"> Посредственные  </span> впечатления </li>
+                <li>      
+                    <p class="money"> 3 000 руб/день </p>
+                    <p class="advice"> не выбирайте этот тариф! </p>
+                </li>
+                <li class="tarif__price"> <a class="price__link" href="" > Купить </a> </li>
+            </ul>
+            <ul class="tarif">
+                <li class="tarif-name" id="premium"> Комфорт </li>
+                <li> <span class="important"> Люксовый </span> автобус </li>
+                <li> <span class="important"> Отличная </span> гостиница </li>
+                <li> <span class="important"> Интересный </span> гид </li>
+                <li> <span class="important"> Хорошие  </span> впечатления </li>
+                <li> 
+                    <p class="money"> 10 000 руб/день </p>
+                    <p class="advice"> можете выбрать этот тариф! </p>
+                </li>
+                <li class="tarif__price"> <a class="price__link" href=""> Купить </a> </li>
+            </ul>
+            <ul class="tarif">
+                <li class="tarif-name"> Люкс </li>
+                <li> <span class="important"> Личный </span> самолет </li>
+                <li> <span class="important"> Шикарная </span> вилла </li>
+                <li> <span class="important"> Квест </span> в подарок </li>
+                <li> <span class="important"> Самые яркие  </span> впечатления </li>
+                <li> 
+                    <p class="money"> 1 000 000 руб/день </p>
+                    <p class="advice"> выбирайте этот тариф! </p>
+                </li>
+                <li class="tarif__price"> <a class="price__link" href=""> Купить </a> </li>
+            </ul>
+        </div>
+        </div>
+        <div class="contact">
+            <h2 class="contact__title"> Оставьте заявку </h2>
+            <p class="contact__paragraph"> Не будьте скромными, пишите нам! </p>
+            <p class="contact__info"> Москва, звонят колокола </p>
+            <p class="contact__info"> Телефон: 8 000 000 00 00 </p>
+            <p class="contact__info"> Почта: opaopa@america_evropa </p>
+            <form>
+                <p>
+                    <input class="contact__input" type="text" placeholder="Введите имя">
+                </p>
+                <p>
+                    <input class="contact__input" type="email" placeholder="Введите e-mail">
+                </p>
+                <p>
+                    <select class="contact__input">
+                        <option> Мыс Брюса </option>
+                        <option> Замок Гарибальди </option>
+                        <option> Стерегущее Копье </option>
+                    </select>
+                </p>
+                <p>
+                    <select class="contact__input">
+                        <option> Базовый </option>
+                        <option> Комфорт </option>
+                        <option> Люкс </option>
+                    </select>
+                </p>
+                <buttom class="contact__buttom"> Отправить </buttom>
+            </form>
+        </div>       
+    </main>
+    <footer class="footer"> @Все права защищены </footer>
+</body>
+</html>

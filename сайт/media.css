@@ -1,0 +1,72 @@
+@media (max-width: 575px){
+    .menu{
+        position: relative;
+        width: 100%;
+    }
+    .menu__link{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .header{
+        width: 100%;
+    }
+    .about-site{
+        width: 100%;
+        margin-top: -140px;
+    }
+    .about-site__box{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .box__img{
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box__paragraph{
+        margin: 25px 15px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .attractions{
+        width: 100%;
+        margin-top: -60px;
+    }
+    .attractions__flex{
+        flex-direction: column;
+    }
+    .attractions__title{
+        font-size: 28px;
+    }
+    .attractions__paragraph{
+        font-size: 20px;
+    }
+    .card{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .card__description{
+        padding-bottom: 20px;
+    }
+    .card__link{
+        display: block;
+        position: static;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contact{
+        margin-top: 840px;
+        padding: 20px;
+    }
+    .tarif-flex{
+        flex-direction: column;
+    }
+    .tarif{
+        width: 100%;
+        position: relative;
+    }
+    .footer{
+        position: relative;
+    }
+}
